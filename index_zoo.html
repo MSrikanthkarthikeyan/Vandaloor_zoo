@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAZp Vandalur Zoo Animals</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #bdd2cb;
+        }
+
+        header {
+            background-color: #6cac5c;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 2em;
+        }
+
+        .cover {
+            position: relative;
+            width: 100%;
+            margin: 1em;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .cover img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+             /* Adjust opacity as needed */
+        }
+
+        .cimg {
+            width: 100%;
+            height: 250px; /* Adjusted height for better display */
+            object-fit: cover;
+        }
+
+        .animal-card {
+            width: 300px;
+            background-color: #fff;
+            margin: 1em;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .animal-card:hover {
+            transform: scale(1.05);
+        }
+
+        .animal-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .animal-info {
+            padding: 1em;
+        }
+
+        footer {
+           
+            background-color: #556e5a;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AAZp Vandalur Zoo Animals</h1>
+    </header>
+
+    <section>
+        <!-- Cover Image for Entrance -->
+        <div class="cover">
+            <img src="entrance.jpg" alt="Welcome">
+            <div class="animal-info">
+                <h2>Welcome</h2>
+                <p>Experience the beauty of Vandaloor Zoo Waterfall.</p>
+            </div>
+        </div>
+        
+
+        <!-- Animal Cards -->
+        <div class="animal-card">
+            <img src="lionjpg.jpeg" alt="Lion" class="animal-image">
+            <div class="animal-info">
+                <h2>Lion</h2>
+                <p>The king of the jungle.</p>
+            </div>
+        </div>
+
+        <div class="animal-card">
+            <img src="elephant.jpg" alt="Elephant" class="animal-image">
+            <div class="animal-info">
+                <h2>Elephant</h2>
+                <p>Gentle giants of the zoo.</p>
+            </div>
+        </div>
+        
+        <div class="animal-card">
+            <img src="btiger.jpg" alt="Tiger" class="animal-image">
+            <div class="animal-info">
+                <h2>Bengal tiger</h2>
+                <p>Agile large cat of jungle.</p>
+            </div>
+        </div>
+
+        <div class="animal-card">
+            <img src="rhinoceros.jpg" alt="Rhinoceros" class="animal-image">
+            <div class="animal-info">
+                <h2>Rhinoceros</h2>
+                <p>Majestic horned creatures.</p>
+            </div>
+        </div>
+
+        <div class="animal-card">
+            <img src="leopard.jpg" alt="Leopard" class="animal-image">
+            <div class="animal-info">
+                <h2>Leopard</h2>
+                <p>Graceful and powerful predators.</p>
+            </div>
+        </div>
+
+        <div class="animal-card">
+            <img src="tortoise.jpg" alt="Tortoise" class="animal-image">
+            <div class="animal-info">
+                <h2>Tortoise</h2>
+                <p>Slow and steady reptiles.</p>
+            </div>
+        </div>
+
+        <div class="animal-card">
+            <img src="bison.jpg" alt="Bison" class="animal-image">
+            <div class="animal-info">
+                <h2>Bison</h2>
+                <p>Massive herbivores in the wild.</p>
+            </div>
+        </div>
+
+        <div class="animal-card">
+            <img src="crocodile.jpg" alt="Crocodile" class="animal-image">
+            <div class="animal-info">
+                <h2>Crocodile</h2>
+                <p>A fearsome aquatic predator.</p>
+            </div>
+        </div>
+
+        
+
+        <div class="animal-card">
+            <img src="macaw.jpg" alt="Macaws" class="animal-image">
+            <div class="animal-info">
+                <h2>Macaws</h2>
+                <p>Vibrant and social parrot species.</p>
+            </div>
+        </div>
+        <div class="animal-card">
+            <img src="ndeer.jpg" alt="Deers" class="animal-image">
+            <div class="animal-info">
+                <h2>Deers</h2>
+                <p>Gentle and Graceful cows.</p>
+            </div>
+        </div>
+        <div class="animal-card">
+            <img src="peacock.jpg" alt="Peacock" class="animal-image">
+            <div class="animal-info">
+                <h2>Peacock</h2>
+                <p>The beauty of the avian world.</p>
+            </div>
+        </div>
+        <div class="animal-card">
+            <img src="snake.jpg" alt="Snake" class="animal-image">
+            <div class="animal-info">
+                <h2>Snake</h2>
+                <p>Curly venomous slitheres.</p>
+            </div>
+        </div>
+        <div class="animal-card">
+            <img src="bear.jpg" alt="Snake" class="animal-image">
+            <div class="animal-info">
+                <h2>Bear</h2>
+                <p>Grizzly black bears</p>
+            </div>
+        </div>
+        <div class="animal-card">
+            <img src="ostrich.jpg" alt="Snake" class="animal-image">
+            <div class="animal-info">
+                <h2>Ostrich</h2>
+                <p>Largest but flightless bird.</p>
+            </div>
+        </div>
+
+        <!-- Add more animal cards as needed -->
+        <div class="cover">
+            <img src="img - Copy.jpg" alt="Welcome">
+            <div class="animal-info">
+                
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AAZp Vandalur Zoo. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
